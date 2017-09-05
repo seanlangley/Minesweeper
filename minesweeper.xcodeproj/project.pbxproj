@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CBA58171F5E6A8200E7526D /* square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA58161F5E6A8200E7526D /* square.swift */; };
+		3CBA58191F5E6B2200E7526D /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA58181F5E6B2200E7526D /* Board.swift */; };
+		3CBA581B1F5E6D8200E7526D /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA581A1F5E6D8200E7526D /* SquareButton.swift */; };
 		3CD8D5041F5E64810055F035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8D5031F5E64810055F035 /* AppDelegate.swift */; };
 		3CD8D5061F5E64810055F035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8D5051F5E64810055F035 /* ViewController.swift */; };
 		3CD8D5091F5E64810055F035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8D5071F5E64810055F035 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CBA58161F5E6A8200E7526D /* square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = square.swift; sourceTree = "<group>"; };
+		3CBA58181F5E6B2200E7526D /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		3CBA581A1F5E6D8200E7526D /* SquareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
 		3CD8D5001F5E64810055F035 /* minesweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minesweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD8D5031F5E64810055F035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CD8D5051F5E64810055F035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				3CD8D5031F5E64810055F035 /* AppDelegate.swift */,
 				3CD8D5051F5E64810055F035 /* ViewController.swift */,
 				3CD8D5071F5E64810055F035 /* Main.storyboard */,
+				3CBA58161F5E6A8200E7526D /* square.swift */,
+				3CBA58181F5E6B2200E7526D /* Board.swift */,
+				3CBA581A1F5E6D8200E7526D /* SquareButton.swift */,
 				3CD8D50A1F5E64810055F035 /* Assets.xcassets */,
 				3CD8D50C1F5E64810055F035 /* LaunchScreen.storyboard */,
 				3CD8D50F1F5E64810055F035 /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBA581B1F5E6D8200E7526D /* SquareButton.swift in Sources */,
+				3CBA58171F5E6A8200E7526D /* square.swift in Sources */,
 				3CD8D5061F5E64810055F035 /* ViewController.swift in Sources */,
+				3CBA58191F5E6B2200E7526D /* Board.swift in Sources */,
 				3CD8D5041F5E64810055F035 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				3CD8D52A1F5E64820055F035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CD8D52B1F5E64820055F035 /* Build configuration list for PBXNativeTarget "minesweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				3CD8D52D1F5E64820055F035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CD8D52E1F5E64820055F035 /* Build configuration list for PBXNativeTarget "minesweeperUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				3CD8D5301F5E64820055F035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
