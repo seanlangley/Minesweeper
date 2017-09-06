@@ -100,7 +100,7 @@ class ViewController: UIViewController {
             buttons_left -= 1
             sender.wasPressed = true
         }
-        print("buttons_left = \(buttons_left)")
+
         if(buttons_left == 0)
         {
             win_sequence()
