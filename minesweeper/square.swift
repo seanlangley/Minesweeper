@@ -15,6 +15,7 @@ class Square{
     var numNeighboringMines = 0
     var isMineLocation = false
     var isRevealed = false
+    
     init(row:Int, col:Int)
     {
         self.row = row
